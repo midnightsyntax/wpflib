@@ -2,10 +2,9 @@ Helper library for managing WPF applications and windows.
 
 ### Description
 
-- Automatically restores the last size and position of any window within the application.
-- Adds event "WindowResizeEvent". Tiggers once when a window has been resized.
-- Adds event "WindowMoveEvent". Triggers once when a window has been moved.
-
+- Save and restore window size, position and state on application exit and start.
+- Adds event "Resized". Tiggers once when a window has been resized.
+- Adds event "Moved". Triggers once when a window has been moved.
 
 
 ### Instructions
