@@ -12,7 +12,6 @@ using System.Windows.Interop;
 using System.Xml;
 using System.Xml.Serialization;
 using WpfLib.Config;
-using static WpfLib.Windows.WindowEvents;
 
 namespace WpfLib.Windows
 {
@@ -188,8 +187,8 @@ namespace WpfLib.Windows
 
         #region Events
 
-        public static event WindowMovedEventHandler WindowMoved;
-        public static event WindowResizedEventHandler WindowResized;
+        public static event WindowMovedEventHandler Moved;
+        public static event WindowResizedEventHandler Resized;
 
         #endregion
 
@@ -979,12 +978,13 @@ namespace WpfLib.Windows
             if (double.IsNaN(window.Left)) window.Left = 250;
         }
 
-        private bool _positionChanged = false;
-        private bool _sizeChanged = false;
         private WindowSettings WindowSettings;
         private WindowConfig Config;
         private bool InitChecked = false;
         public bool DebugStartUp = false;
         public bool DisableSavedWindowState = false;
+
+        private bool _positionChanged = false;
+        private bool _sizeChanged = false;
     }
 }
