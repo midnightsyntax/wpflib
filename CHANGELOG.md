@@ -4,6 +4,20 @@
 
 ---
 
+# 1.1.0 
+##### 2018-01-27
+
+### Added
+
+- Converters!
+	- BoolToStringConverter
+	- ColorToSolidBrushConverter
+	- DoubleAddSubstractConverter
+	- HeightToMarginConverter
+- ViewModelBase
+
+---
+
 # 1.0.0 
 ##### 2018-01-26
 

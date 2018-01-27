@@ -5,6 +5,7 @@ Helper library for managing WPF applications and windows.
 - Save and restore window size, position and state on application exit and start.
 - Adds event "Resized". Tiggers once when a window has been resized.
 - Adds event "Moved". Triggers once when a window has been moved.
+- Adds generic converters.
 
 
 ### Instructions
