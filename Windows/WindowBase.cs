@@ -152,13 +152,13 @@ namespace WpfLib.Windows
         {
             if (DebugStartUp) Debug.WriteLine(Name + " moved");
             UpdateConfig();
-            WindowMoved?.Invoke(this);
+            Moved?.Invoke(this);
         }
         public void OnWindowResized()
         {
             if (DebugStartUp) Debug.WriteLine(Name + " resized");
             UpdateConfig();
-            WindowResized?.Invoke(this);
+            Resized?.Invoke(this);
         }
 
         private IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)

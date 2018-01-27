@@ -52,10 +52,16 @@
   <ItemGroup>
     <Compile Include="Config\ApplicationConfig.cs" />
     <Compile Include="Config\WindowConfig.cs" />
+    <Compile Include="Converter\BoolToStringConverter.cs" />
+    <Compile Include="Converter\ColorToSolidBrushConverter.cs" />
+    <Compile Include="Converter\DoubleAddSubstractConverter.cs" />
+    <Compile Include="Converter\HeightToMarginConverter.cs" />
+    <Compile Include="ViewPropertyAttribute.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="Windows\WindowBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows\WindowEvents.cs" />
     <Compile Include="Windows\WindowSettings.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
