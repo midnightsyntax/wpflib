@@ -9,7 +9,7 @@ namespace WpfLib.Converter
     /// <summary>
     /// Takes a Color and outputs a SolidColorBrush with that color.
     /// </summary>
-    class ColorToSolidBrushConverter : IValueConverter
+    public class ColorToSolidBrushConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
