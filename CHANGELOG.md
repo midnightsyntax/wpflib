@@ -1,6 +1,19 @@
 ##### wpflib
 
 # CHANGELOG
+---
+
+# 1.2.0 
+##### 2018-01-31
+
+### Added
+
+- New converter: 'NullableBoolConverter'
+
+### Change
+
+- Namespaces for all converters are now WpfLib.Converter
+- Cleanup unused namespaces
 
 ---
 

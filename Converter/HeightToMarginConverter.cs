@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace WpfApp.Converter
+namespace WpfLib.Converter
 {
     /// <summary>
     /// Takes a height double and outputs a Margin. Example: Height is "20". Margin value will be "20,20,20,20".

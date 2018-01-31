@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace WpfApp.Converter
+namespace WpfLib.Converter
 {
     /// <summary>
     /// Takes a Color and outputs a SolidColorBrush with that color.
